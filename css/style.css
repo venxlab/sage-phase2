@@ -109,12 +109,17 @@ a{
 	color: #000;
 }
 
+.navigation li a:hover{
+	opacity: 1;
+}
+
 .navigation li.active{
 	border-bottom: 4px solid #f63c3c;
 }
 
 .navigation li.active a{
 	color: #f63c3c;
+	opacity: 1;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~
